@@ -60,6 +60,7 @@ body {
 }
 .text {
   color: #6471ba;
+  font-weight: 500;
 }
 img {
   height: 100px;
