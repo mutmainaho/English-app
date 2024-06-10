@@ -16,6 +16,9 @@ body {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  min-height: 100vh;
+  width: 100%;
+  padding-bottom: 60px;
 }
 .welcome {
   display: flex;
@@ -109,13 +112,16 @@ img {
   border-radius: 1em;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 } */
+/* .leaderboard__block {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+} */
 .leaderboard__block {
   padding: 10px 15px;
   display: flex;
   align-items: center;
-}
-.leaderboard__block {
-  border-radius: 15px;
+  background: #ffffff;
   margin: 10px;
   border-bottom: none;
   border-radius: 1em;
@@ -163,4 +169,98 @@ img {
 .navbar a:active {
   color: #6471ba;
   border-radius: 5px;
+}
+.calender,
+.skill {
+  padding: 1rem;
+  width: 100%;
+}
+.month,
+.date {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.month h3 {
+  font-weight: bolder;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 0;
+  padding-left: 0;
+  width: 100%;
+}
+li {
+  display: inline-block;
+  margin-right: 18px;
+}
+li:last-child {
+  margin-right: 0;
+}
+.date-number {
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color: #6471ba;
+  padding: 3px;
+}
+.day {
+  padding-top: 5px;
+  font-weight: 500;
+}
+.date-three {
+  background-color: #6471ba;
+}
+.date-five {
+  background-color: #ff9564;
+  color: #ffffff;
+}
+.day-five {
+  color: #ff9564;
+}
+.skill-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #6471ba;
+  font-weight: bolder;
+}
+.skill-card {
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.skill-card-img-top {
+  background-color: #6471ba;
+  align-self: center;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.skill-card-title {
+  font-weight: bold;
+}
+.skill-percent {
+  opacity: 0.5;
+}
+.orange-button,
+.orange-button:hover,
+.orange-button:active {
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #ff9564;
+  border: 2px solid #ff9564;
+}
+.white-button,
+.white-button:hover {
+  color: #ff9564;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 2px solid #ff9564;
 }
